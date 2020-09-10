@@ -8,7 +8,7 @@ int multi(int a, int b) //Función para poder discriminar el valor del número
   if(b == 1){
     return a;
   }
-  return a + multi(a, b-1);
+  return a + multi(a, b-1); //retornar a la variable
 }
 
 
